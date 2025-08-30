@@ -24,8 +24,12 @@ jobs:
       - name: Build with PyInstaller (using spec file)
         run: uv run pyinstaller --noconfirm --distpath github_exe/ docx_modify/docx_modify.exe.spec
 
-      - name: Upload EXE artifact
-        uses: actions/upload-artifact@v4
+      # Create a GitHub Release and upload exe to it
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
         with:
-          name: docx_modify-exe
-          path: github_exe/docx_modify.exe
+          tag_name: build-${{ github.run_number }}
+          name: "Automated build ${{ github.run_number }}"
+          files: github_exe/docx_modify.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
