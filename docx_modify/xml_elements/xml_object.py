@@ -119,7 +119,6 @@ class XmlObject:
         _etree: _ElementTree = etree.parse(path)
         return cls(_etree.getroot())
 
-    def write(self, **kwargs):
-        path: Path = kwargs.get("path")
+    def write(self, path: Path):
         self._content.getroottree().write(path)
         logger.info(f"Файл {path} записан")

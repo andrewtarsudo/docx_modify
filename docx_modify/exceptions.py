@@ -49,3 +49,7 @@ class InvalidXmlFileError(BaseError):
 
 class RequiredXmlFileMissingError(BaseError):
     """XML file must be in the archive, but it is missing."""
+
+
+class WidgetNotFoundError(BaseError):
+    """Widget having the specified name is missing."""

@@ -3,14 +3,14 @@ import faulthandler
 # noinspection PyProtectedMember
 from logging import Handler, LogRecord, currentframe, basicConfig
 from os import getenv
-from shutil import rmtree
 from sys import stdout as sysout
+from textwrap import dedent
 from types import FrameType
-from typing import Any, Callable, Literal, Type, NamedTuple
+from typing import Any, Literal, Type, NamedTuple
 
 from loguru import logger
 
-from docx_modify.const import log_folder, version
+from docx_modify.const import log_folder, version, parent_path
 
 HandlerType: Type[str] = Literal["stream", "file_rotating"]
 LoggingLevel: Type[str] = Literal["TRACE", "DEBUG", "INFO", "SUCCESS", "WARNING", "ERROR", "CRITICAL"]
@@ -158,60 +158,51 @@ class LoggerConfiguration:
             return
 
 
-def custom_logging(name: str, is_delete: bool = False):
+def custom_logging():
     # enable the faulthandler
     if not faulthandler.is_enabled():
         faulthandler.enable()
 
-    def inner(func: Callable):
-        def wrapper(*args, **kwargs):
-            LEVEL_COLOR_STYLE: tuple[LevelColorStyle, ...] = (
-                LevelColorStyle("DEBUG", "light-green"),
-                LevelColorStyle("INFO", "blue", "italic"),
-                LevelColorStyle("SUCCESS", "green", "bold"),
-                LevelColorStyle("WARNING", "magenta", "italic"),
-                LevelColorStyle("ERROR", "red", "bold"),
-                LevelColorStyle("CRITICAL", "cyan", "bold"))
+    message: str = dedent(
+        "Возникла ошибка \"{record[exception].type}: {record[exception].value}\" при вызове функции \
+        \"{record[function]}\", процесс \"{record[process].name}\", поток \"{record[thread].name}\" \
+        ({record[thread].id}):")
 
-            stream_level: LoggingLevel | str = "SUCCESS" if getenv("DOCX_MODIFY_LOGS", None) is None else "DEBUG"
-            handlers: dict[HandlerType, LoggingLevel | str] | None = {
-                "stream": stream_level,
-                "file_rotating": "DEBUG"}
-
-            file_name: str = name
-
-            # specify the handlers
-            logger_configuration: LoggerConfiguration = LoggerConfiguration(file_name, handlers)
-            stream_handler: dict[str, Any] = logger_configuration.stream_handler()
-            rotating_file_handler: dict[str, Any] = logger_configuration.rotating_file_handler()
-
-            logger.configure(handlers=[stream_handler, rotating_file_handler])
-
-            # specify the styles for the levels
-            for item in LEVEL_COLOR_STYLE:
-                logger.level(name=item.name, color=item.color)
-
-            # add the basic log messages to the logger
-            basicConfig(handlers=[InterceptHandler()], level=0)
-
-            # add the beginning to separate different runs
-            logger.success("========================================")
-            logger.success(f"Версия: {version()}")
-            logger.success("Запуск программы:")
-
-            return func(*args, **kwargs)
-
-        return wrapper
-
-    # disable faulthandler
-    if faulthandler.is_enabled():
-        faulthandler.disable()
-
-    # disable loguru logger
     logger.remove()
 
-    # delete the log file and folder
-    if is_delete:
-        rmtree(log_folder, True)
+    LEVEL_COLOR_STYLE: tuple[LevelColorStyle, ...] = (
+        LevelColorStyle("DEBUG", "light-green"),
+        LevelColorStyle("INFO", "blue", "italic"),
+        LevelColorStyle("SUCCESS", "green", "bold"),
+        LevelColorStyle("WARNING", "magenta", "italic"),
+        LevelColorStyle("ERROR", "red", "bold"),
+        LevelColorStyle("CRITICAL", "cyan", "bold"))
 
-    return inner
+    stream_level: LoggingLevel | str = "SUCCESS" if getenv("DOCX_MODIFY_LOGS", None) is None else "DEBUG"
+    handlers: dict[HandlerType, LoggingLevel | str] | None = {
+        "stream": stream_level,
+        "file_rotating": "DEBUG"}
+
+    file_name: str = parent_path.name
+
+    # specify the handlers
+    logger_configuration: LoggerConfiguration = LoggerConfiguration(file_name, handlers)
+    stream_handler: dict[str, Any] = logger_configuration.stream_handler()
+    rotating_file_handler: dict[str, Any] = logger_configuration.rotating_file_handler()
+
+    logger.configure(handlers=[stream_handler, rotating_file_handler])
+
+    # specify the styles for the levels
+    for item in LEVEL_COLOR_STYLE:
+        logger.level(name=item.name, color=item.color)
+
+    # add the basic log messages to the logger
+    basicConfig(handlers=[InterceptHandler()], level=0)
+
+    logger.enable("")
+    logger.catch(message=message)
+
+    # add the beginning to separate different runs
+    logger.success("========================================")
+    logger.success(f"Версия: {version()}")
+    logger.success("Запуск программы:")

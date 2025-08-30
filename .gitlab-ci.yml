@@ -1,0 +1,39 @@
+image: dockurr/windows
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - bin/
+
+stages:
+  - setup
+  - install
+  - build
+
+setup_job:
+  stage: setup
+  script:
+    - Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    - choco feature enable -n allowGlobalConfirmation
+    - choco install python --version 3.12.0
+
+install_job:
+  stage: install
+  script:
+    - python -m pip install uv
+    - python -m uv sync --no-dev --locked --no-install-project
+    - python -m uv add --dev --locked pyinstaller
+  dependencies:
+    - setup_job
+
+build_job:
+  stage: build
+  script:
+    - cd .\docx_modify
+    - python -m pyinstaller --noconfirm --distpath "../bin" docx_modify.exe.spec
+  artifacts:
+    paths:
+      - bin/docx_*
+  dependencies:
+    - setup_job
+    - install_job

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import faulthandler
 from pathlib import Path
 from shutil import rmtree
 from textwrap import dedent
@@ -333,7 +334,10 @@ def file_modify(file_item: FileItem):
 @logger.catch
 def run_script():
     """Main entrance point of the program."""
-    custom_logging("docx_modify")
+    if not faulthandler.is_enabled():
+        faulthandler.enable()
+
+    custom_logging()
     _error_flag: bool = False
 
     show_prompt()
@@ -376,5 +380,8 @@ def run_script():
 
     else:
         print(f"Лог-файл находится в директории {log_folder}")
+
+    if faulthandler.is_enabled():
+        faulthandler.disable()
 
     input("Нажмите клавишу <Enter>, чтобы закрыть окно ...")

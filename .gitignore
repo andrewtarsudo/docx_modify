@@ -23,7 +23,7 @@ share/python-wheels/
 
 # Environments
 .env
-.venv/
+.venv
 env/
 venv/
 ENV/
@@ -38,4 +38,3 @@ _temp/
 _docx_temp/
 utils/
 extra/
-css/

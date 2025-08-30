@@ -33,7 +33,7 @@ include = [
   "requirements.txt",
   "sources"
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 
 dependencies = [
   "lxml>=4.9",
@@ -41,6 +41,7 @@ dependencies = [
   "colorama>=0.4; python_version >= '3.8' and sys_platform == 'win32'",
   "win32-setctime>=1.1; python_version >= '3.8' and sys_platform == 'win32'",
   "tomli>=1.1; python_version < '3.11'",
+  "pyside6>=6.9",
 ]
 
 [project.scripts]

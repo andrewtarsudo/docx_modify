@@ -404,6 +404,8 @@ class FileItem(NamedTuple):
 
 
 class UserInputValues:
+    is_none: bool = False
+
     __slots__ = (
         "_path_files",
         "_document_mode",
@@ -442,6 +444,10 @@ class UserInputValues:
 
     def to_dict(self):
         return {item.removeprefix("_"): str(getattr(self, item)) for item in self.__slots__}
+
+    @classmethod
+    def disable(cls):
+        cls.is_none = True
 
     def __str__(self):
         _str_dict: str = ", ".join([f"{k} = {v}" for k, v in self.to_dict().items()])
@@ -542,3 +548,13 @@ class UserInputValues:
                 self._change_list,
                 self._approvement_list)
             for path_file in self._path_files)
+
+    def specify(self, **kwargs):
+        for k, v in kwargs.items():
+            k: str = f"_{k.removeprefix('_')}"
+
+            if k in self.__slots__:
+                setattr(self, k, v)
+
+            else:
+                logger.info(f"Параметр {k} не найден в списке разрешенных атрибутов")
