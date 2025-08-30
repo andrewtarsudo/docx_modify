@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:hdr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:p>
+    <w:pPr>
+      <w:pStyle w:val="_style_12_center" />
+      <w:jc w:val="center" />
+    </w:pPr>
+    <w:r>
+      <w:fldChar w:fldCharType="begin" />
+    </w:r>
+    <w:r>
+      <w:instrText>PAGE \* MERGEFORMAT</w:instrText>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="separate" />
+    </w:r>
+    <w:r>
+      <w:t>ОБНОВИТЬ</w:t>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="end" />
+    </w:r>
+  </w:p>
+  <w:p>
+    <w:pPr>
+      <w:pStyle w:val="_style_12_center" />
+    </w:pPr>
+    <w:r>
+      <w:fldChar w:fldCharType="begin" />
+    </w:r>
+    <w:r>
+      <w:instrText>DOCPROPERTY _DecimalNum_ \* MERGEFORMAT</w:instrText>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="separate" />
+    </w:r>
+    <w:r>
+      <w:t>ОБНОВИТЬ</w:t>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="end" />
+    </w:r>
+  </w:p>
+  <w:p>
+    <w:pPr>
+      <w:pStyle w:val="_style_12_center" />
+    </w:pPr>
+  </w:p>
+</w:hdr>

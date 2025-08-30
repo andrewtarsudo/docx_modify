@@ -1,0 +1,73 @@
+[project]
+name = "docx_modify"
+version = "1.4.2"
+description = "Modifies headers and footers for *.docx/*.docm files."
+authors = [
+  { name = "Andrew Tar", email = "<andrew.tar@yahoo.com>" }
+]
+keywords = [
+  "docx",
+  "typographic"
+]
+license = { text = "MIT License" }
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: MacOS",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Natural Language :: English",
+  "Natural Language :: Russian",
+  "Topic :: Text Editors :: Text Processing",
+  "Topic :: Text Editors :: Word Processors",
+  "Topic :: Text Processing",
+  "Topic :: Utilities"
+]
+readme = "README.adoc"
+include = [
+  "README.adoc",
+  "pyproject.toml",
+  "MANIFEST.in",
+  "LICENSE",
+  "requirements.txt",
+  "sources"
+]
+requires-python = ">=3.8"
+
+dependencies = [
+  "lxml>=4.9",
+  "loguru>=0.6",
+  "colorama>=0.4; python_version >= '3.8' and sys_platform == 'win32'",
+  "win32-setctime>=1.1; python_version >= '3.8' and sys_platform == 'win32'",
+  "tomli>=1.1; python_version < '3.11'",
+]
+
+[project.scripts]
+docx-modify = "__main__.py:main"
+
+[dependency-groups]
+dev = [
+  "pyinstaller>=6.12",
+  "ruff>=0.11",
+  "vulture>=2.14"
+]
+
+[tool.uv]
+managed = true
+package = false
+compile-bytecode = true
+python-downloads = "never"
+python-preference = "managed"
+
+[tool.vulture]
+ignore_names = [
+  "XmlRelationshipType",
+  "XmlRelationshipTarget",
+  "XmlHdrFtrReference",
+  "SectionOrientation",
+  "SectionPgBorder",
+  "SectionPgMar",
+  "SectionPgSz"
+]
+exclude = ["docx_modify/init_logger.py"]

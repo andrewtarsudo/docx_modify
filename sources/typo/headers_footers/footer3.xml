@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:ftr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:p>
+    <w:pPr>
+      <w:pStyle w:val="_style_text_14_" />
+      <w:jc w:val="left" />
+    </w:pPr>
+    <w:r>
+      <w:t xml:space="preserve">Страница </w:t>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="begin" />
+    </w:r>
+    <w:r>
+      <w:instrText xml:space="preserve"> PAGE \* MERGEFORMAT </w:instrText>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="separate" />
+    </w:r>
+    <w:r>
+      <w:t>0</w:t>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="end" />
+    </w:r>
+    <w:r>
+      <w:t xml:space="preserve"> из </w:t>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="begin" />
+    </w:r>
+    <w:r>
+      <w:instrText xml:space="preserve"> NUMPAGES \* MERGEFORMAT </w:instrText>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="separate" />
+    </w:r>
+    <w:r>
+      <w:t>0</w:t>
+    </w:r>
+    <w:r>
+      <w:fldChar w:fldCharType="end" />
+    </w:r>
+  </w:p>
+</w:ftr>

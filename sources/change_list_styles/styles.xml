@@ -1,0 +1,88 @@
+<w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:style w:customStyle="1" w:styleId="_table_style_change_list_" w:type="table">
+    <w:name w:val="StyleTableChangeList" />
+    <w:uiPriority w:val="99" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
+    <w:pPr>
+      <w:spacing w:after="60" w:before="120" />
+      <w:jc w:val="both" />
+    </w:pPr>
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman" />
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+    </w:rPr>
+    <w:tblPr>
+      <w:tblLayout w:type="fixed" />
+      <w:tblInd w:type="dxa" w:w="0" />
+      <w:tblStyleRowBandSize w:val="1" />
+      <w:tblBorders>
+        <w:top w:sz="4" w:val="single" />
+        <w:left w:sz="4" w:val="single" />
+        <w:bottom w:sz="4" w:val="single" />
+        <w:right w:sz="4" w:val="single" />
+        <w:insideH w:sz="4" w:val="single" />
+        <w:insideV w:sz="4" w:val="single" />
+      </w:tblBorders>
+      <w:tblCellMar>
+        <w:top w:type="dxa" w:w="0" />
+        <w:left w:type="dxa" w:w="108" />
+        <w:bottom w:type="dxa" w:w="0" />
+        <w:right w:type="dxa" w:w="108" />
+      </w:tblCellMar>
+    </w:tblPr>
+    <w:tblStylePr w:type="firstRow">
+      <w:pPr>
+        <w:keepNext />
+        <w:widowControl />
+        <w:wordWrap />
+        <w:snapToGrid />
+        <w:jc w:val="center" />
+      </w:pPr>
+      <w:tblPr />
+      <w:tcPr />
+    </w:tblStylePr>
+  </w:style>
+  <w:style w:customStyle="1" w:styleId="_change_list_text_" w:type="paragraph">
+    <w:name w:val="ChangeListText" />
+    <w:basedOn w:val="_style_table_11_" />
+    <w:uiPriority w:val="1" />
+    <w:qFormat />
+    <w:pPr>
+      <w:widowControl w:val="1" />
+      <w:spacing w:after="120" />
+      <w:ind w:firstLine="0" />
+      <w:suppressOverlap />
+      <w:jc w:val="center" />
+    </w:pPr>
+    <w:rPr>
+      <w:sz w:val="20" />
+      <w:szCs w:val="20" />
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman"
+                w:cs="Times New Roman" />
+      <w:spacing w:val="-4" />
+    </w:rPr>
+  </w:style>
+  <w:style w:customStyle="1" w:styleId="_change_list_header_" w:type="paragraph">
+    <w:name w:val="ChangeListHeader" />
+    <w:basedOn w:val="_style_table_11_" />
+    <w:uiPriority w:val="1" />
+    <w:qFormat />
+    <w:pPr>
+      <w:widowControl w:val="1" />
+      <w:spacing w:before="60" w:after="120" />
+      <w:ind w:left="567" w:firstLine="0" w:right="44" />
+      <w:suppressOverlap />
+      <w:jc w:val="center" />
+      <w:pageBreakBefore />
+      <w:keepNext />
+    </w:pPr>
+    <w:rPr>
+      <w:sz w:val="28" />
+      <w:szCs w:val="28" />
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman"
+                w:cs="Times New Roman" />
+    </w:rPr>
+  </w:style>
+</w:styles>

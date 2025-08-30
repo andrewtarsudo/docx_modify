@@ -1,0 +1,107 @@
+<w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_table_11_">
+    <w:name w:val="Style_Table_11_Center" />
+    <w:basedOn w:val="Normal" />
+    <w:uiPriority w:val="1" />
+    <w:qFormat />
+    <w:pPr>
+      <w:widowControl w:val="1" />
+      <w:spacing />
+      <w:ind w:firstLine="0" />
+      <w:suppressOverlap />
+      <w:jc w:val="center" />
+    </w:pPr>
+    <w:rPr>
+      <w:sz w:val="22" />
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman"
+                w:cs="Times New Roman" />
+      <w:szCs w:val="22" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_table_11_left_">
+    <w:name w:val="Style_Table_11_Left" />
+    <w:basedOn w:val="_style_table_11_" />
+    <w:uiPriority w:val="1" />
+    <w:qFormat />
+    <w:pPr>
+      <w:jc w:val="left" />
+    </w:pPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_12_center">
+    <w:name w:val="Style_Header_12_Center" />
+    <w:basedOn w:val="_style_table_11_" />
+    <w:uiPriority w:val="1" />
+    <w:rPr>
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_12_table_footer_">
+    <w:name w:val="Style_Footer_12_Center" />
+    <w:basedOn w:val="_style_table_11_" />
+    <w:uiPriority w:val="1" />
+    <w:pPr>
+      <w:spacing w:after="240" />
+    </w:pPr>
+    <w:rPr>
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_text_14_">
+    <w:name w:val="Style_Header_14_Center" />
+    <w:basedOn w:val="_style_table_11_" />
+    <w:uiPriority w:val="1" />
+    <w:rPr>
+      <w:sz w:val="28" />
+      <w:szCs w:val="28" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_text_14_left_">
+    <w:name w:val="Style_14_Left" />
+    <w:basedOn w:val="_style_text_14_" />
+    <w:pPr>
+      <w:jc w:val="left" />
+    </w:pPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_text_16_">
+    <w:name w:val="Style_Table_16_Center" />
+    <w:basedOn w:val="_style_table_11_" />
+    <w:uiPriority w:val="1" />
+    <w:rPr>
+      <w:sz w:val="32" />
+      <w:szCs w:val="32" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="_style_text_16_first_">
+    <w:name w:val="Style_Text_16_First" />
+    <w:basedOn w:val="_style_text_16_" />
+    <w:pPr>
+      <w:spacing w:before="360" />
+      <w:jc w:val="center" />
+    </w:pPr>
+  </w:style>
+  <w:style w:type="table" w:customStyle="1" w:styleId="_table_style_new_grid_">
+    <w:name w:val="StyleTableGrid" />
+    <w:uiPriority w:val="1" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
+    <w:tblPr>
+      <w:tblInd w:type="dxa" w:w="0" />
+      <w:tblBorders>
+        <w:top w:sz="12" w:val="single" />
+        <w:left w:sz="12" w:val="single" />
+        <w:bottom w:sz="12" w:val="single" />
+        <w:right w:sz="12" w:val="single" />
+        <w:insideH w:sz="12" w:val="single" />
+        <w:insideV w:sz="12" w:val="single" />
+      </w:tblBorders>
+      <w:tblCellMar>
+        <w:top w:type="dxa" w:w="0" />
+        <w:left w:type="dxa" w:w="108" />
+        <w:bottom w:type="dxa" w:w="0" />
+        <w:right w:type="dxa" w:w="108" />
+      </w:tblCellMar>
+    </w:tblPr>
+  </w:style>
+</w:styles>

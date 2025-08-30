@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:ftr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:tbl>
+    <w:tblPr>
+      <w:tblStyle w:val="_table_style_new_grid_" />
+      <w:tblpPr w:horzAnchor="page" w:tblpX="438" w:tblpY="8181" w:vertAnchor="page" />
+      <w:tblOverlap w:val="overlap" />
+      <w:tblW w:type="auto" w:w="0" />
+      <w:tblBorders>
+        <w:top w:sz="12" w:val="single" />
+        <w:left w:sz="12" w:val="single" />
+        <w:bottom w:sz="12" w:val="single" />
+        <w:right w:val="nil" />
+        <w:insideH w:sz="12" w:val="single" />
+        <w:insideV w:sz="12" w:val="single" />
+      </w:tblBorders>
+      <w:tblLayout w:type="fixed" />
+      <w:tblCellMar>
+        <w:left w:type="dxa" w:w="0" />
+        <w:right w:type="dxa" w:w="0" />
+      </w:tblCellMar>
+      <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1"
+                 w:val="04A0" />
+    </w:tblPr>
+    <w:tblGrid>
+      <w:gridCol w:w="284" />
+      <w:gridCol w:w="397" />
+    </w:tblGrid>
+    <w:tr>
+      <w:trPr>
+        <w:trHeight w:hRule="exact" w:val="1985" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="284" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+          <w:r>
+            <w:t>Подпись и дата</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="397" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:trHeight w:hRule="exact" w:val="1418" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="284" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+          <w:r>
+            <w:t>Инв. № дубл.</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="397" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:trHeight w:val="1418" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="284" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+          <w:r>
+            <w:t>Взам. инв. №</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="397" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:trHeight w:hRule="exact" w:val="1985" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="284" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+          <w:r>
+            <w:t>Подпись и дата</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="397" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:trHeight w:hRule="exact" w:val="1418" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="284" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+          <w:r>
+            <w:t>Инв. № подл.</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="397" />
+          <w:textDirection w:val="btLr" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="false" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+  </w:tbl>
+</w:ftr>

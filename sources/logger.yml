@@ -1,0 +1,39 @@
+formatting:
+  - name: "debug"
+    color: "light-green"
+    style: "normal"
+  - name: "trace"
+    color: "fg #FF7518"
+    style: "italic"
+  - name: "success"
+    color: "green"
+    style: "bold"
+  - name: "warning"
+    color: "magenta"
+    style: "italic"
+  - name: "error"
+    color: "red"
+    style: "bold"
+  - name: "critical"
+    color: "cyan"
+    style: "bold"
+
+handlers:
+  rotating_file:
+    output: "~/Desktop/_docx_logs/debug.log"
+    level: "DEBUG"
+    format: "{time:DD-MMM-YYYY HH:mm:ss}::{level.name} | {module}::{function}::{line}\n{message}"
+    colorize: false
+    backtrace: true
+    diagnose: true
+    rotation: "2 MB"
+    mode: "w"
+    encoding: "utf-8"
+    catch: true
+  stream:
+    output: "stdout"
+    level: "SUCCESS"
+    format: "format_func"
+    colorize: true
+    backtrace: false
+    diagnose: false

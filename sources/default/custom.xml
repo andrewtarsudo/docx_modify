@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/custom-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+  <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="1" name="_DocName_">
+    <vt:lpwstr>_DocName_</vt:lpwstr>
+  </property>
+  <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="2" name="_DocType_">
+    <vt:lpwstr>_DocType_</vt:lpwstr>
+  </property>
+  <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="3" name="_DecimalNum_">
+    <vt:lpwstr>_DecimalNum_</vt:lpwstr>
+  </property>
+  <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="4" name="_DocTypeShort_">
+    <vt:lpwstr>_DocTypeShort_</vt:lpwstr>
+  </property>
+</Properties>

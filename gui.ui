@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>main</class>
+  <widget class="QMainWindow" name="main">
+    <property name="windowModality">
+      <enum>Qt::NonModal</enum>
+    </property>
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>730</width>
+        <height>360</height>
+      </rect>
+    </property>
+    <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+      </sizepolicy>
+    </property>
+    <property name="minimumSize">
+      <size>
+        <width>730</width>
+        <height>360</height>
+      </size>
+    </property>
+    <property name="maximumSize">
+      <size>
+        <width>730</width>
+        <height>360</height>
+      </size>
+    </property>
+    <property name="baseSize">
+      <size>
+        <width>730</width>
+        <height>360</height>
+      </size>
+    </property>
+    <property name="tabletTracking">
+      <bool>false</bool>
+    </property>
+    <property name="windowTitle">
+      <string>Конвертация файлов</string>
+    </property>
+    <property name="locale">
+      <locale language="Russian" country="Russia"/>
+    </property>
+    <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextOnly</enum>
+    </property>
+    <property name="documentMode">
+      <bool>false</bool>
+    </property>
+    <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="document_mode" stdset="0">
+      <string/>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <property name="enabled">
+        <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+        </sizepolicy>
+      </property>
+      <property name="minimumSize">
+        <size>
+          <width>730</width>
+          <height>360</height>
+        </size>
+      </property>
+      <property name="maximumSize">
+        <size>
+          <width>730</width>
+          <height>360</height>
+        </size>
+      </property>
+      <property name="baseSize">
+        <size>
+          <width>730</width>
+          <height>360</height>
+        </size>
+      </property>
+      <property name="mouseTracking">
+        <bool>false</bool>
+      </property>
+      <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <widget class="QGroupBox" name="document_mode">
+        <property name="geometry">
+          <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>690</width>
+            <height>80</height>
+          </rect>
+        </property>
+        <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+          </sizepolicy>
+        </property>
+        <property name="minimumSize">
+          <size>
+            <width>690</width>
+            <height>80</height>
+          </size>
+        </property>
+        <property name="maximumSize">
+          <size>
+            <width>690</width>
+            <height>80</height>
+          </size>
+        </property>
+        <property name="baseSize">
+          <size>
+            <width>690</width>
+            <height>80</height>
+          </size>
+        </property>
+        <property name="font">
+          <font>
+            <family>PT Sans</family>
+            <pointsize>14</pointsize>
+          </font>
+        </property>
+        <property name="title">
+          <string>Вид</string>
+        </property>
+        <widget class="QRadioButton" name="arch">
+          <property name="geometry">
+            <rect>
+              <x>10</x>
+              <y>35</y>
+              <width>190</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="baseSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+            </font>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Архивный</string>
+          </property>
+        </widget>
+        <widget class="QRadioButton" name="typo">
+          <property name="geometry">
+            <rect>
+              <x>250</x>
+              <y>35</y>
+              <width>190</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="baseSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>false</kerning>
+            </font>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Типографский</string>
+          </property>
+        </widget>
+        <widget class="QRadioButton" name="prog">
+          <property name="geometry">
+            <rect>
+              <x>490</x>
+              <y>35</y>
+              <width>190</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="baseSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+            </font>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Программный</string>
+          </property>
+        </widget>
+      </widget>
+      <widget class="QGroupBox" name="document_side">
+        <property name="geometry">
+          <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>690</width>
+            <height>80</height>
+          </rect>
+        </property>
+        <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+          </sizepolicy>
+        </property>
+        <property name="minimumSize">
+          <size>
+            <width>690</width>
+            <height>80</height>
+          </size>
+        </property>
+        <property name="maximumSize">
+          <size>
+            <width>690</width>
+            <height>80</height>
+          </size>
+        </property>
+        <property name="baseSize">
+          <size>
+            <width>690</width>
+            <height>80</height>
+          </size>
+        </property>
+        <property name="font">
+          <font>
+            <family>PT Sans</family>
+            <pointsize>14</pointsize>
+          </font>
+        </property>
+        <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="title">
+          <string>Форматирование</string>
+        </property>
+        <widget class="QRadioButton" name="single">
+          <property name="geometry">
+            <rect>
+              <x>10</x>
+              <y>35</y>
+              <width>190</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="baseSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>false</kerning>
+            </font>
+          </property>
+          <property name="mouseTracking">
+            <bool>true</bool>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Односторонняя печать</string>
+          </property>
+        </widget>
+        <widget class="QRadioButton" name="mirror">
+          <property name="geometry">
+            <rect>
+              <x>250</x>
+              <y>35</y>
+              <width>190</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="baseSize">
+            <size>
+              <width>190</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>false</kerning>
+            </font>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Двусторонняя печать</string>
+          </property>
+        </widget>
+      </widget>
+      <widget class="QGroupBox" name="checkboxes">
+        <property name="geometry">
+          <rect>
+            <x>20</x>
+            <y>180</y>
+            <width>690</width>
+            <height>130</height>
+          </rect>
+        </property>
+        <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+          </sizepolicy>
+        </property>
+        <property name="title">
+          <string/>
+        </property>
+        <property name="flat">
+          <bool>false</bool>
+        </property>
+        <property name="checkable">
+          <bool>false</bool>
+        </property>
+        <widget class="QCheckBox" name="def_ministery">
+          <property name="geometry">
+            <rect>
+              <x>10</x>
+              <y>10</y>
+              <width>480</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>false</kerning>
+            </font>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Поставка для Министерства Обороны РФ?</string>
+          </property>
+        </widget>
+        <widget class="QCheckBox" name="check_list">
+          <property name="geometry">
+            <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>480</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="baseSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>false</kerning>
+            </font>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Добавить Лист регистрации изменений в конец документа?</string>
+          </property>
+        </widget>
+        <widget class="QCheckBox" name="approvement_list">
+          <property name="geometry">
+            <rect>
+              <x>10</x>
+              <y>90</y>
+              <width>480</width>
+              <height>30</height>
+            </rect>
+          </property>
+          <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="maximumSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="baseSize">
+            <size>
+              <width>480</width>
+              <height>30</height>
+            </size>
+          </property>
+          <property name="font">
+            <font>
+              <family>PT Sans</family>
+              <pointsize>16</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+            </font>
+          </property>
+          <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+            <string>Добавить штамп Листа утверждения на титульный лист?</string>
+          </property>
+        </widget>
+      </widget>
+      <widget class="QPushButton" name="cancel_button">
+        <property name="geometry">
+          <rect>
+            <x>600</x>
+            <y>320</y>
+            <width>100</width>
+            <height>30</height>
+          </rect>
+        </property>
+        <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+          </sizepolicy>
+        </property>
+        <property name="minimumSize">
+          <size>
+            <width>100</width>
+            <height>30</height>
+          </size>
+        </property>
+        <property name="maximumSize">
+          <size>
+            <width>100</width>
+            <height>30</height>
+          </size>
+        </property>
+        <property name="font">
+          <font>
+            <family>PT Sans</family>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+            <kerning>false</kerning>
+          </font>
+        </property>
+        <property name="text">
+          <string>Отмена</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="ok_button">
+        <property name="geometry">
+          <rect>
+            <x>500</x>
+            <y>320</y>
+            <width>100</width>
+            <height>30</height>
+          </rect>
+        </property>
+        <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+          </sizepolicy>
+        </property>
+        <property name="minimumSize">
+          <size>
+            <width>100</width>
+            <height>30</height>
+          </size>
+        </property>
+        <property name="maximumSize">
+          <size>
+            <width>100</width>
+            <height>30</height>
+          </size>
+        </property>
+        <property name="baseSize">
+          <size>
+            <width>100</width>
+            <height>30</height>
+          </size>
+        </property>
+        <property name="font">
+          <font>
+            <family>PT Sans</family>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+          </font>
+        </property>
+        <property name="text">
+          <string>ОК</string>
+        </property>
+        <property name="checkable">
+          <bool>false</bool>
+        </property>
+        <property name="default">
+          <bool>false</bool>
+        </property>
+      </widget>
+    </widget>
+  </widget>
+  <resources/>
+  <connections>
+    <connection>
+      <sender>typo</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>single</receiver>
+      <slot>setDisabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>364</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>124</x>
+          <y>149</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>typo</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>mirror</receiver>
+      <slot>setDisabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>364</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>364</x>
+          <y>149</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>typo</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>def_ministery</receiver>
+      <slot>setDisabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>364</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>204</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>typo</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>check_list</receiver>
+      <slot>setDisabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>364</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>244</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>typo</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>approvement_list</receiver>
+      <slot>setDisabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>364</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>284</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>arch</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>single</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>124</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>124</x>
+          <y>149</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>arch</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>mirror</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>124</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>364</x>
+          <y>149</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>arch</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>def_ministery</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>124</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>204</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>arch</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>approvement_list</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>124</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>284</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>arch</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>check_list</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>124</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>244</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>prog</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>single</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>604</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>124</x>
+          <y>149</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>prog</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>mirror</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>604</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>364</x>
+          <y>149</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>prog</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>def_ministery</receiver>
+      <slot>setDisabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>604</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>204</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>prog</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>approvement_list</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>604</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>284</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>prog</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>check_list</receiver>
+      <slot>setEnabled(bool)</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>604</x>
+          <y>69</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>269</x>
+          <y>244</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>ok_button</sender>
+      <signal>clicked()</signal>
+      <receiver>main</receiver>
+      <slot>hide()</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>530</x>
+          <y>320</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>364</x>
+          <y>179</y>
+        </hint>
+      </hints>
+    </connection>
+    <connection>
+      <sender>cancel_button</sender>
+      <signal>clicked()</signal>
+      <receiver>main</receiver>
+      <slot>close()</slot>
+      <hints>
+        <hint type="sourcelabel">
+          <x>649</x>
+          <y>334</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>364</x>
+          <y>179</y>
+        </hint>
+      </hints>
+    </connection>
+  </connections>
+</ui>

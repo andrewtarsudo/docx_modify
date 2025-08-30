@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:hdr xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+       xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main">
+  <w:tbl>
+    <w:tblPr>
+      <w:tblpPr w:leftFromText="181" w:rightFromText="181" w:vertAnchor="text" w:tblpY="1" />
+      <w:tblOverlap w:val="never" />
+      <w:tblW w:w="9628" w:type="dxa" />
+      <w:tblBorders>
+        <w:bottom w:val="single" w:sz="4" />
+      </w:tblBorders>
+      <w:tblLook w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1" w:val="04A0" />
+      <w:tblLayout w:type="fixed" />
+    </w:tblPr>
+    <w:tblGrid>
+      <w:gridCol w:w="3674" />
+      <w:gridCol w:w="4253" />
+      <w:gridCol w:w="2268" />
+    </w:tblGrid>
+    <w:tr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3674" w:type="dxa" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_12_center_" />
+          </w:pPr>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve"> DOCPROPERTY _DecimalNum_ \* MERGEFORMAT</w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>ОБНОВИТЬ</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve">DOCPROPERTY _DocTypeShort_ \* MERGEFORMAT </w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>ОБНОВИТЬ</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="4253" w:type="dxa" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_text_14_" />
+            <w:tabs>
+              <w:tab w:val="center" w:pos="4577" />
+            </w:tabs>
+          </w:pPr>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve"> DOCPROPERTY _DocName_ \* MERGEFORMAT </w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>ОБНОВИТЬ</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="2268" w:type="dxa" />
+          <w:vAlign w:val="bottom" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_12_center" />
+          </w:pPr>
+          <w:r>
+            <w:drawing>
+              <wp:inline distT="0" distB="0" distL="0" distR="0">
+                <wp:extent cx="1261852" cy="328060" />
+                <wp:effectExtent l="0" t="0" r="0" b="0" />
+                <wp:docPr id="10" name="Image" />
+                <wp:cNvGraphicFramePr>
+                  <a:graphicFrameLocks noChangeAspect="true" />
+                </wp:cNvGraphicFramePr>
+                <a:graphic>
+                  <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                    <pic:pic>
+                      <pic:nvPicPr>
+                        <pic:cNvPr id="34" name="Name" />
+                        <pic:cNvPicPr />
+                      </pic:nvPicPr>
+                      <pic:blipFill>
+                        <a:blip r:embed="rId1">
+                          <a:extLst>
+                            <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                              <a14:useLocalDpi val="false" />
+                            </a:ext>
+                          </a:extLst>
+                        </a:blip>
+                        <a:stretch>
+                          <a:fillRect />
+                        </a:stretch>
+                      </pic:blipFill>
+                      <pic:spPr>
+                        <a:xfrm>
+                          <a:off x="0" y="0" />
+                          <a:ext cx="1297864" cy="337422" />
+                        </a:xfrm>
+                        <a:prstGeom prst="rect">
+                          <a:avLst />
+                        </a:prstGeom>
+                      </pic:spPr>
+                    </pic:pic>
+                  </a:graphicData>
+                </a:graphic>
+              </wp:inline>
+            </w:drawing>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+  </w:tbl>
+  <w:p>
+    <w:pPr>
+      <w:pStyle w:val="_style_text_14_" />
+    </w:pPr>
+  </w:p>
+</w:hdr>

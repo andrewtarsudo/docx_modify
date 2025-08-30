@@ -1,0 +1,29 @@
+<root>
+  <w:p xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+    <w:pPr>
+      <w:pStyle w:val="_style_text_14_left_" />
+    </w:pPr>
+    <w:br />
+    <w:r>
+      <w:t>УТВЕРЖДЕН</w:t>
+    </w:r>
+  </w:p>
+  <w:p xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+    <w:pPr>
+      <w:pStyle w:val="_style_text_14_left_" />
+    </w:pPr>
+    <w:fldSimple w:instr=" DOCPROPERTY _DecimalNum_ \* MERGEFORMAT ">
+      <w:r>
+        <w:t>ОБНОВИТЬ</w:t>
+      </w:r>
+    </w:fldSimple>
+    <w:fldSimple w:instr=" DOCPROPERTY _DocTypeShort_ \* MERGEFORMAT ">
+      <w:r>
+        <w:t>ОБНОВИТЬ</w:t>
+      </w:r>
+    </w:fldSimple>
+    <w:r>
+      <w:t>-ЛУ</w:t>
+    </w:r>
+  </w:p>
+</root>

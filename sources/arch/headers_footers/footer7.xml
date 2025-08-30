@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:ftr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:tbl>
+    <w:tblPr>
+      <w:tblStyle w:val="_table_style_new_grid_" />
+      <w:tblpPr w:horzAnchor="page" w:leftFromText="181" w:rightFromText="181" w:tblpX="340" w:tblpY="1123"
+                w:vertAnchor="page" />
+      <w:tblOverlap w:val="overlap" />
+      <w:tblW w:type="dxa" w:w="852" />
+      <w:tblBorders>
+        <w:top w:sz="8" w:val="single" />
+        <w:left w:sz="8" w:val="single" />
+        <w:bottom w:sz="8" w:val="single" />
+        <w:right w:sz="8" w:val="single" />
+      </w:tblBorders>
+      <w:tblCellMar>
+        <w:left w:type="dxa" w:w="0" />
+        <w:right w:type="dxa" w:w="0" />
+      </w:tblCellMar>
+      <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1"
+                 w:val="04A0" />
+    </w:tblPr>
+    <w:tblGrid>
+      <w:gridCol w:w="283" />
+      <w:gridCol w:w="283" />
+      <w:gridCol w:w="286" />
+    </w:tblGrid>
+    <w:tr>
+      <w:trPr>
+        <w:cantSplit />
+        <w:trHeight w:val="510" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:val="nil" />
+            <w:left w:val="nil" />
+            <w:bottom w:sz="4" w:val="single" />
+            <w:right w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:t>Изм.</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:val="nil" />
+            <w:left w:sz="8" w:val="single" />
+            <w:bottom w:sz="4" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:val="nil" />
+            <w:bottom w:sz="4" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:cantSplit />
+        <w:trHeight w:val="567" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+            <w:left w:val="nil" />
+            <w:bottom w:sz="4" w:val="single" />
+            <w:right w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve"> DOCPROPERTY _Page_Sheet_ \* MERGEFORMAT </w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>ОБНОВИТЬ</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+            <w:left w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:cantSplit />
+        <w:trHeight w:val="1276" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+            <w:left w:val="nil" />
+            <w:bottom w:sz="4" w:val="single" />
+            <w:right w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:t>№ докум.</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:left w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:cantSplit />
+        <w:trHeight w:val="839" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+            <w:left w:val="nil" />
+            <w:bottom w:sz="4" w:val="single" />
+            <w:right w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:t>Подп.</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:left w:sz="8" w:val="single" />
+            <w:bottom w:sz="4" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:bottom w:sz="4" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:cantSplit />
+        <w:trHeight w:val="652" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+            <w:left w:val="nil" />
+            <w:bottom w:sz="8" w:val="single" />
+            <w:right w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:t>Дата</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+            <w:left w:sz="8" w:val="single" />
+            <w:bottom w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="4" w:val="single" />
+            <w:bottom w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:cantSplit />
+        <w:trHeight w:val="5947" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="849" />
+          <w:gridSpan w:val="3" />
+          <w:tcBorders>
+            <w:top w:sz="8" w:val="single" />
+            <w:left w:val="nil" />
+            <w:bottom w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_text_16_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve"> DOCPROPERTY _DecimalNum_ \* MERGEFORMAT </w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>ОБНОВИТЬ</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve"> DOCPROPERTY _DocTypeShort_ \* MERGEFORMAT </w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>ОБНОВИТЬ</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:cantSplit />
+        <w:trHeight w:val="567" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="566" />
+          <w:gridSpan w:val="2" />
+          <w:tcBorders>
+            <w:top w:sz="8" w:val="single" />
+            <w:left w:val="nil" />
+            <w:bottom w:val="nil" />
+            <w:right w:sz="8" w:val="single" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve"> PAGE \* MERGEFORMAT </w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>0</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:type="dxa" w:w="283" />
+          <w:tcBorders>
+            <w:top w:sz="8" w:val="single" />
+            <w:left w:sz="8" w:val="single" />
+            <w:bottom w:val="nil" />
+          </w:tcBorders>
+          <w:textDirection w:val="tbRl" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:pStyle w:val="_style_table_11_left_" />
+            <w:framePr w:hAnchor="text" w:vAnchor="margin" w:wrap="auto" w:xAlign="left" w:yAlign="inline" />
+            <w:suppressOverlap w:val="0" />
+          </w:pPr>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" />
+          </w:r>
+          <w:r>
+            <w:instrText xml:space="preserve"> DOCPROPERTY _Page_Sheet_ \* MERGEFORMAT </w:instrText>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="separate" />
+          </w:r>
+          <w:r>
+            <w:t>ОБНОВИТЬ</w:t>
+          </w:r>
+          <w:r>
+            <w:fldChar w:fldCharType="end" />
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+  </w:tbl>
+</w:ftr>

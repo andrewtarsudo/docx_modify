@@ -1,0 +1,1 @@
+bin/docx_* filter=lfs diff=lfs merge=lfs -text
